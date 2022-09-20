@@ -1,8 +1,8 @@
 <template>
   <!-- html 태그가 들어가는 부분 -->
   <div>
-    <h1></h1>
-    <p></p>
+    <h1>Hello {{ userName }}</h1>
+    <p>{{ message }}</p>
   </div>
 </template>
 <script>
@@ -11,7 +11,10 @@ export default {
   // function data()인데 vue에서는 function 생략
   data() {
     return {
-      userName: 'John Doe'
+      userName: 'John Doe',
+      message: 'Welcome 개발자의 품격',
+      arr: [],
+      obj: {}
     }
   }
 }

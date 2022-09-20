@@ -1,7 +1,7 @@
 <template>
   <div>
     <input type="text" name="" id="" v-bind:value="userId" readonly />
-    <!-- v-bind은 단방향 바인딩, 생략 가능  -->
+    <!-- v-bind은 단방향 바인딩, 생략 가능. v-model은 양방향용  -->
     <input type="text" name="" id="" :value="userId" readonly />
     <br />
     <img :src="imgSrc" alt="" style="width: 100px; height: auto" />

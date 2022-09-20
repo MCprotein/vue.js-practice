@@ -1,6 +1,7 @@
 <template>
   <!-- html 태그가 들어가는 부분 -->
   <div>
+    <!-- 문자열 바인딩할때는 중괄호 두개 -->
     <h1>Hello {{ userName }}</h1>
     <p>{{ message }}</p>
   </div>
